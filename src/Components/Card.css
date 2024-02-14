@@ -1,0 +1,41 @@
+.card1 > img{
+    width: 350px;
+    height: 179px;
+
+}
+.card1 {
+    width:350px !important;
+    height: 179px;
+    margin: 15px;
+    transition: transform 100ms ease-in;
+    color: white !important;
+   ;
+    text-decoration: none;
+    
+
+
+
+}
+
+.card1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #01bf71;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card-content{
+    padding: 10px;
+    color: white;
+}
+.card-content >h4 {
+    padding-bottom: 5px;
+    color: white;
+}
+.card-content> p {
+    font-size: 15px;
+    color: white;
+}
